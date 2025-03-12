@@ -5,6 +5,11 @@ helloWorld("hello world, med parameter");
 
 // her skal du skrive din funktion
 
-function helloWorld(){
+function helloWorld(minValue, minAndenValue){
+    
+    let result = minValue +  + minAndenValue
+    console.log(result);
+    
+    
     
 }
