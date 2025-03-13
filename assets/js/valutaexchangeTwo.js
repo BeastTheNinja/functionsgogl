@@ -32,16 +32,8 @@ function gatherInputData() {
 
 
 // viser resultatet  (view code fra MVC)
-function showResult(myEuroResult, myDollarResult, myDanishAmount) {
-    const resultElement = document.getElementById('result');
-    resultElement.innerHTML = myDanishAmount + ' danske kroner bliver til: ' + myEuroResult + ' euro og ' + myDollarResult + ' dollars';
-
+// FUNKTION 1
+function calculateExchange(ammountDK, exchangeRate ){
+    let result = ammountDK * exchangeRate
+    showResult(myDanishAmount)
 }
-
-/* skriv din kode herunder.
-
-
-
-
-
-
